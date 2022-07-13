@@ -1,0 +1,51 @@
+@font-face {
+  font-family: logoFont;
+  src: url(RomanaBTRoman.ttf);
+}
+
+.App {
+  padding-left: 25%;
+  padding-right: 25%;
+  color:white;
+  background-color: #1a1c1a;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: logoFont;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: logoFont;
+  size: 40px;
+  font-weight: lighter;
+  padding-left: 10px;
+  margin-bottom: -10px;
+  padding-top: 20px;
+}
+
+
+p {
+  font-family: logoFont;
+  size: 40px;
+  font-weight: lighter;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  float: right;
+  display: block;
+}
+
