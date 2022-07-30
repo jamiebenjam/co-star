@@ -1,5 +1,5 @@
 import React from "react";
-import smiley from './smileys.jpg'
+import smiley from './cropped-smiley.jpg'
 import styled from "styled-components";
 
 
@@ -8,14 +8,14 @@ function Compatibility() {
         <CompDetail>
         <div className="compatibility">
         <img src={smiley} alt="smileys" className="smiley"></img>
-        <h1>Compatibility</h1>
-        <h4>Basic Identities</h4>
-        <h4>Intellect & Communication</h4>
-        <h4>Love & h4leasure</h4>
-        <h4>Sex & Aggression</h4>
-        <h4>h4hilosophies of Life</h4>
-        <h4>Moods & Emotions</h4>
-        <h4>Senses of Resh4onsiblity</h4>
+        <h1 className="compatibilityHeader">Compatibility</h1>
+        <h4 className="compat">⊙ Basic Identities <br></br> <small>Leo — Cancer →</small></h4>
+        <h4 className="compat">☿ Intellect & Communication <br></br> <small>Virgo — Leo →</small></h4>
+        <h4 className="compat">⚥ Love & Pleasure <br></br> <small>Cancer — Leo →</small></h4>
+        <h4 className="compat">♂ Sex & Aggression <br></br> <small>Leo — Cancer →</small></h4>
+        <h4 className="compat">♃ Philosophies of Life <br></br> <small>Capricorn — Gemini →</small></h4>
+        <h4 className="compat">☽ Moods & Emotions <br></br> <small>Sagittarius — Pisces →</small></h4>
+        <h4 className="compat">♄ Senses of Responsiblity <br></br> <small>Aries — Capricorn →</small></h4>
     </div>  
     </CompDetail>
     )
@@ -25,7 +25,8 @@ export default Compatibility;
 
 const CompDetail = styled.div`
 .smiley {
-    align: left
+    float: left
+    height: 300px
 }
 
 `

@@ -1,0 +1,16 @@
+{
+  "horoscopes": [
+      {
+        "id": 1,
+        "message": "shawn, you feel a pull towards congeniality, and @jamiebenjam is very loving. You have the right to use the word love with them today. A new kind of relationship betweem you can emerge at any time, for any reason, and lead anywhere. Flip to a new page and write their name over and over."
+      },
+      {
+          "id": 2,
+          "message": "shawn, you will always be warm and @jamiebenjam can support their friends. You make each other feel alive right now. Other people's rules don't apply to you. Wait for golden hour and give each other video tours of your bedrooms. Show them the corners where the sun hits."
+        },
+      { 
+          "id": 3,
+          "message": "hello"
+      }
+  ]
+}

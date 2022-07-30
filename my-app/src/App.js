@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import Compatibility from './Compatibiliy';
 import styled from "styled-components";
+import Today from './Today';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h1>Co—Starbabes.</h1>
       <hr></hr>
       <Header />
+      <Today />
       <Compatibility />
   </div>
   </Background>
