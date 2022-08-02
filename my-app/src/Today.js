@@ -1,66 +1,35 @@
-import React, { useEffect, useState } from "react";
-import HoroscopeItem from "./HoroscopeItem";
+import React, { useState } from "react";
 
 function Today() {
 
     const horoscopeMessages = 
     ["I love you so much", 
-    "You're the best thing to happen to me",
-    "Buy your gf a glizzy"
+    "You're my favorite person",
+    "Buy your gf a glizzy",
+    "Give me a bird"
 ]
 
-const getRandomHoroscope = () => {
-    return horoscopeMessages[Math.floor(Math.random()*horoscopeMessages.length)]; 
-}
-
-
-    const [horoscopes, setHoroscope] = useState([])
-    const [randomHoroscope, setRandomHoroscope] = useState([
-    "I love you so much", 
-    "You're the best thing to happen to me",
-    "Buy your gf a glizzy"
-])
+    const [message, setMessage] = useState('Hello');
 
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let monthIndex = (new Date().getMonth());
-    let monthName = monthNames[monthIndex];
+    let monthName = monthNames[monthIndex]
 
     const current = new Date();
     const date = `${current.getDate()}`;
 
-    function fetchHoroscopes() {
-        fetch("http://localhost:8000/horoscopes")
-        .then((r) => r.json())
-        .then((data) => setHoroscope(data))
-    }
-
-    useEffect(fetchHoroscopes, [])
-
-
-    const horoscopeMap = horoscopes.map((horoscope) => {
-        return <HoroscopeItem
-            key={horoscope.id}
-            id={horoscope.id}
-            message={horoscope.message}
-        />
-    })
-
-console.log(horoscopeMap)
-
-
-
     function handleClick(){
-        console.log("clicked")
-        console.log(getRandomHoroscope())
+        setMessage({message: horoscopeMessages[Math.floor(Math.random()*horoscopeMessages.length)]})
     }
 
     return (
         <div>
             <hr></hr>
-            <h2>Today {monthName}{date}</h2>
-            <h1>{horoscopeMap}</h1>
-            <p>horoscope placeholder</p>
-            <button onClick={handleClick} class="button-2">new horoscope</button>
+            <h2 className="compatibilityHeader">Today <small>{monthName} {date}</small></h2>
+            <p>{message.message}</p>
+            <br></br>
+            <button onClick={handleClick} className="button-2">today's horoscope</button>
+            <br></br>
             <br></br>
             <hr></hr>
         </div>
