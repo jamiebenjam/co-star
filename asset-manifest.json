@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/co-star/static/css/main.a15a0740.css",
+    "main.js": "/co-star/static/js/main.bfc9b59a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/co-star/static/js/787.28cb0dcd.chunk.js",
+    "static/media/circleStarbabes.png": "/co-star/static/media/circleStarbabes.da6cf0f22d1cbe397ea7.png",
+    "static/media/RomanaBTRoman.ttf": "/co-star/static/media/RomanaBTRoman.0b5dd33ea4cb0eaa9fb1.ttf",
+    "static/media/Akkurat-Mono.OTF": "/co-star/static/media/Akkurat-Mono.5ac5f95bb89772801b9a.OTF",
+    "static/media/cropped-smiley.jpg": "/co-star/static/media/cropped-smiley.57bea22ff7a2764c142a.jpg",
+    "index.html": "/co-star/index.html",
+    "main.a15a0740.css.map": "/co-star/static/css/main.a15a0740.css.map",
+    "main.bfc9b59a.js.map": "/co-star/static/js/main.bfc9b59a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/co-star/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a15a0740.css",
+    "static/js/main.bfc9b59a.js"
+  ]
+}
