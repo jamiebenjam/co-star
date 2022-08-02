@@ -39,7 +39,9 @@ const loveNotes = [
     "and that when i look into the future, i see you there with me",
     "for your swagginess",
     "and your commitment to the things your value",
-    "bc you're hot"
+    "bc you're hot",
+    "and i dont think ill ever finish falling in love with you",
+    "and im a mf simp for you"
 ]
 
 function handleClick(){
