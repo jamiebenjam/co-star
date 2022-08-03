@@ -38,7 +38,7 @@ const loveNotes = [
     "for your bozo-ness, your teasing, your light spirit",
     "and that when i look into the future, i see you there with me",
     "for your swagginess",
-    "and your commitment to the things your value",
+    "and your commitment to the things you value",
     "bc you're hot",
     "and i dont think ill ever finish falling in love with you",
     "and im a mf simp for you"
